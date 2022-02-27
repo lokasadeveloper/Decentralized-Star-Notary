@@ -1,47 +1,47 @@
 # Project Informations
 
-*1) ERC-721 Token Name*
+**1) ERC-721 Token Name**
 
- Name: Crypto Lucky Star
+ - Name: Crypto Lucky Star
 
-*2) ERC-721 Token Symbol*
+**2) ERC-721 Token Symbol**
 
- Symbol: CLSTAR
+ - Symbol: CLSTAR
 
-*3) Version of the Truffle and OpenZeppelin used*
+**3) Version of the Truffle and OpenZeppelin used**
 
- Truffle - v5.4.32
+ - Truffle - v5.4.32
  
- openzeppelin-solidity - v2.3
+ - openzeppelin-solidity - v2.3
 
-*4) Token Address on the Rinkeby Network*
+**4) Token Address on the Rinkeby Network**
 
-0xB91b126E800574f292b2c610D6577B79E9d62666
+- 0xB91b126E800574f292b2c610D6577B79E9d62666
 
 You can find my token at :
 
 [Crypto Lucky Star](https://rinkeby.etherscan.io/token/0xb91b126e800574f292b2c610d6577b79e9d62666)
 
 
-*node version*
+**node version**
 node -v
 
 v16.13.2
 
-*npm version*
+**npm version**
 npm -v
 
 8.1.2
 
-*MetaMask Version*
+**MetaMask Version**
 10.10.1
 
-*Install dependencies*
+**Install dependencies**
 cd app
 
 npm install
 
-*Mandatory packages*
+**Mandatory packages**
 cd Decentralized-Star-Notary
 
 npm install --save  openzeppelin-solidity@2.3
@@ -52,8 +52,8 @@ npm install --save  truffle-hdwallet-provider@1.0.17
 # !!! WARNING
 Please replace following variables value in the truffle-config.js
 
-const rinkebyKey = "*YOUR_RINKEBYKEY*";
+const rinkebyKey = "**YOUR_RINKEBYKEY**";
 
-const mnemonic = "*YOUR_MNEMONIC*";
+const mnemonic = "**YOUR_MNEMONIC**";
 
 
