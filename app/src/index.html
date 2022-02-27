@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>StarNotary DAPP</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+  </head>
+  
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+      width: 200px;
+      height: 25px;
+      font-size: 13px;
+    }
+
+    button {
+      width: 150px;
+      height: 30px;
+      font-size: 18px;
+    }
+
+    .clsStarInfo {
+      border-style: solid;
+      border-width: 1px;
+      border-color: green;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .clsError {
+      color: RED;
+    }
+  </style>
+  <body>
+    <h1>StarNotary Token DAPP</h1>
+    <hr>
+    <div class="container">
+      <h2>Create a Star</h1>
+      <div class="form-group">
+        <label for="starName">Star Name:</label>
+        <input class="form-control" type="text" id="starName" placeholder="Enter a name for your Star"></input>     
+        <label for="starId">Star ID:</label>
+        <input class="form-control" type="text" id="starId" placeholder="Enter an ID for your Star"></input>    
+        <button class="btn btn-primary" id="createStar" onclick="App.createStar()">Create Star</button>
+      </div>
+      <hr>
+      <h2>Look up a Star</h1>
+      <div class="form-group">
+        <label for="name">Star ID:</label>
+        <input class="form-control" type="text" id="lookid" placeholder="Enter an ID to search for a Star"></input>    
+        <button class="btn btn-primary" onclick="App.lookUp()">Look Up a Star</button>
+      </div>
+      <hr>
+      <span id="status"></span>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
