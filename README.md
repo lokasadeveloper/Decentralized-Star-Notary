@@ -10,17 +10,17 @@
 
 **3) Version of the Truffle and OpenZeppelin used**
 
- - Truffle - v5.4.32
- 
+ - Truffle - v5.4.32 
  - openzeppelin-solidity - v2.3
 
 **4) Token Address on the Rinkeby Network**
 
 - 0xB91b126E800574f292b2c610D6577B79E9d62666
 
+
 **Find deployed token at rinkeby.etherscan.io**
 
-- [Crypto Lucky Star](https://rinkeby.etherscan.io/token/0xb91b126e800574f292b2c610d6577b79e9d62666)
+- [Crypto Lucky Star :link:](https://rinkeby.etherscan.io/token/0xb91b126e800574f292b2c610d6577b79e9d62666)
 
 
 **node version**
