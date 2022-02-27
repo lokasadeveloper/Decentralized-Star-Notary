@@ -11,13 +11,15 @@
 3) Version of the Truffle and OpenZeppelin used
 
  Truffle - v5.4.32
+ 
  openzeppelin-solidity - v2.3
 
 4) Token Address on the Rinkeby Network
 
- Contract Address: 0xB91b126E800574f292b2c610D6577B79E9d62666
+0xB91b126E800574f292b2c610D6577B79E9d62666
 
 You can find my token at :
+
 https://rinkeby.etherscan.io/token/0xb91b126e800574f292b2c610d6577b79e9d62666
 
 
